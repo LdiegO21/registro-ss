@@ -1,0 +1,149 @@
+*{
+  padding: 0px;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background: #FEFEFE;
+  font-family: sans-serif;
+  height: 100vh;
+}
+iframe
+{
+  height: 100%;
+  width: 100%;
+}
+.menu_bar
+{
+  display: block;
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  background: #023859;
+  color: #fff;
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.menu_bar label .log
+{
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+.menu_bar .btn-menu
+{
+  display: block;
+  padding: 20px;
+  color: #FFF;
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.menu_bar span
+{
+  float: right;
+  font-size: 40px;
+}
+header
+{
+  width: 100%;
+}
+nav
+{
+  position: relative;
+  top: 38px;
+}
+header nav
+{
+  background: #023859;
+  z-index: 1000;
+  margin: 20px auto;
+  width: 20%;
+  height: 94%;
+  position: absolute;
+  margin:0;
+}
+header nav ul
+{
+  list-style: none;
+}
+header nav ul li
+{
+  position: relative;
+  display: block;  border-top: 1px solid rgba(255,255,255,.5);
+  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+header nav ul li:hover
+{
+  background: #0D47A1;
+}
+header nav ul li div
+{
+  color: #FFF;
+  display: block;
+  text-decoration: none;
+  padding: 20px;
+}
+header nav ul li div span
+{
+  margin-right: 10px;
+}
+header nav ul li:hover .children
+{
+  display: none;
+}
+header nav ul li .children
+{
+  display: none;
+  background: #011826;
+  position: relative;
+  width: 100%
+  z-index: 1000;
+}
+header nav ul li .children li
+{
+  display: block;
+  overflow: hidden;
+  border-top: 1px solid rgba(255,255,255,.5);  border-bottom: 1px solid rgba(255,255,255,.5);
+}
+header nav ul li .children li div
+{
+  display: block;
+  margin-left: 20px;
+}
+header nav ul li .children li div span
+{
+  float: right;
+  position: relative;
+  top: 3px;
+  margin-right: 0px;
+  margin-left: 10px;
+}
+header nav ul li .caret
+{
+  position: relative;
+  top: 3px;
+  margin-right: 10px;
+  margin-left: 0px;
+  float: right;
+}
+.logout
+{
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+}
+.apartados
+{
+  position: absolute;
+  top: 38px;
+  left: 20%;
+  width: 80%;
+  height: 94%;
+}

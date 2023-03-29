@@ -1,0 +1,21 @@
+<?php
+	require_once "php/conexion.php";
+?>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Consultas</title>
+	<link rel="stylesheet" type="text/css" href="css/consultas.css">
+</head>
+<body>
+	<section>
+		<div class="buscar">
+			<label for="caja_busqueda">Buscar:</label>
+			<input type="text" name="caja_busqueda" id="caja_busqueda">
+			<div id="datos"></div>
+		</div>
+	</section>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/mostrar_datos_admin.js"></script>
+</body>
+</html>

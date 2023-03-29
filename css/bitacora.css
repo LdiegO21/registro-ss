@@ -1,0 +1,88 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background: #FEFEFE;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.registro
+{
+	background: #023859;
+	z-index: 1000;
+	margin: 20px auto;
+	width: 30%;
+	height: 100%;
+	position: absolute;
+	margin:0;
+}
+.registro input[type="text"]
+{
+	width: 35%;
+ 	margin-bottom: 20px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	margin: auto;
+	display: block;
+}
+.registro input[type="button"] 
+{
+	border: none;
+	outline: none;
+	width: 30%;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 20px;
+	margin: auto;
+	display: block;
+}
+.registro input[type="button"]:hover 
+{
+	cursor: pointer;
+	background: #E6344A;
+	color: #fff;
+}
+.tabla
+{
+	background: #fff;
+	z-index: 1000;
+	margin: 20px auto;
+	width: 70%;
+	height: 100%;
+	position: absolute;
+	left: 30%;
+	margin:0;
+}
+.tabla table
+{
+	border-collapse: collapse;
+	width: 90%;
+}
+.tabla table .head
+{
+	border-radius: 5px;
+}
+.tabla table .head>td
+{
+	text-align: center;
+	background-color: #0D47A1;
+	color: #fff;
+}
+.tabla tr, td
+{
+	height: 20px;
+	text-align: left;
+}
+.tabla table, tr, td
+{
+	border: 1px solid black;
+}

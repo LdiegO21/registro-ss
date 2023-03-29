@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(../images/login.jpeg) no-repeat center top;
+  background-size: cover;
+  font-family: sans-serif;
+  height: 100vh;
+}
+.registro
+{
+	width: 80%;
+	height: 80%;
+	background: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	padding: 30px;
+  border-radius: 5px;
+}
+.registro input 
+{
+  width: 46%;
+  margin-bottom: 20px;
+}
+
+.registro input[type="text"]
+{
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+  outline: none;
+  height: 50px;
+  font-size: 16px;
+}
+.registro input[type="button"] 
+{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #b80f22;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+  margin: auto;
+  display: block;
+}
+.registro input[type="button"]:hover 
+{
+  cursor: pointer;
+  background: #E6344A;
+  color: #fff;
+}
+.registro fieldset
+{
+  width: 43%;
+  height: 40px;
+}
+.registro fieldset label
+{
+  width: 150px;
+  height: 15px;
+}
+.registro fieldset label .noom
+{
+  width: 50%;
+}
+.registro fieldset label:hover
+{
+  cursor: pointer;
+}
+.registro input[type="radio"] 
+{
+  width: 15px;
+  height: 15px;
+}
+.registro input[type="radio"]:hover
+{
+  cursor: pointer;
+}
+select
+{ 
+	font-size: 16px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  outline: 0;
+  box-shadow: none;
+  border: 1 !important;
+  background: transparent;
+  background-image: none;
+}
+/* Remove IE arrow */
+select::-ms-expand
+{
+  display: none;
+}
+/* Custom Select */
+.select_admin
+{
+  position: absolute;
+  right: 30px;
+  top: 69%;
+  display: flex;
+  width: 46%;
+  height: 40px;
+  line-height: 3;
+  background: transparent;
+  overflow: hidden;
+  border-radius: .25em;
+}.select_alum
+{
+  position: absolute;
+  right: 30px;
+  top: 66%;
+  display: flex;
+  width: 46%;
+  height: 40px;
+  line-height: 3;
+  background: transparent;
+  overflow: hidden;
+  border-radius: .25em;
+}
+select {
+  flex: 1;
+  padding: 0.5em;
+  cursor: pointer;
+}
+/* Arrow */
+.select::after {
+  content: '\25BC';
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 1em;
+  background: transparent;
+  color: #1B4F72;
+  cursor: pointer;
+  pointer-events: none;
+  -webkit-transition: .25s all ease;
+  -o-transition: .25s all ease;
+  transition: .25s all ease;
+}
+/* Transition */
+.select:hover::after {
+  color: #2E86C1;
+}

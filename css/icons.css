@@ -1,0 +1,26 @@
+.house
+{
+	overflow: hidden;
+}
+.register
+{
+	overflow: hidden;
+}
+.consult 
+{
+	overflow: hidden;
+}
+.arrow
+{
+	overflow: hidden;
+}
+li > div .arrow img:hover
+{
+	transition: 1s;
+	transform: rotate(-180deg);
+}
+img
+{
+	width: 20px;
+	height: 20px;
+}
